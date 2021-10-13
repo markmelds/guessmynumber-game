@@ -1,5 +1,5 @@
 'use strict';
-
+let name = prompt('What is your name?');
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 // document.querySelector('.number').textContent = secretNumber;
 let highscore = 0;
@@ -19,7 +19,7 @@ document.querySelector('.check').addEventListener('click', () => {
 
     //When player wins
   } else if (guess === secretNumber) {
-    displayMessage('Correct Number!');
+    displayMessage(`Correct Number! Congrats ${name}! 💖`);
     document.querySelector('.number').textContent = secretNumber;
 
     document.querySelector('body').style.backgroundColor = '#60b347';
