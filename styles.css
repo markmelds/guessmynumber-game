@@ -67,6 +67,7 @@ h1 {
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 50%);
+  border-radius: 25px;
 }
 
 .between {
@@ -78,8 +79,9 @@ h1 {
 
 .again {
   position: absolute;
-  top: 2rem;
-  left: 2rem;
+  border-radius: 10px;
+  top: 5rem;
+  left: 10rem;
 }
 
 .guess {
@@ -103,10 +105,11 @@ h1 {
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
+  border-radius: 12px;
 }
 
 .btn:hover {
-  background-color: #ccc;
+  background-color: rgb(238, 219, 113);
 }
 
 .message {
@@ -117,3 +120,4 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
